@@ -39,6 +39,9 @@ registerInstrumentations({
       '@opentelemetry/instrumentation-express': {
         enabled: false,
       },
+      '@opentelemetry/instrumentation-net': {
+        enabled: false,
+      },
     }),
   ],
 });
